@@ -1,7 +1,7 @@
 HI i am Divya Bellur.
 
  This is my introduction through GITHUB
-I am a experienced  database administrator.
+and I am a experienced  database administrator.
 -   Reach me at dvgpnth@gmail.com
 -   Contact me on 07341375552
 
