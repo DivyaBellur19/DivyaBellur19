@@ -1,0 +1,10 @@
+wget https://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
+sudo yum localinstall mysql80-community-release-el7-3.noarch.rpm
+sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+sudo yum install mysql-community-server
+sudo systemctl enable mysqld.service
+sudo systemctl start mysqld.service
+systemctl status mysqld
+pidof mysqld
+netstat -ntlp | grep 3306
+sudo lsof -u mysql
